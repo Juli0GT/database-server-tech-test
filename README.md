@@ -14,6 +14,6 @@ I would like to store a key/value pair to a server
 
 ```
 As a user,
-So I can see what i have stored.
+So I can see what I have stored.
 I would like to get a key/value pair from a server
 ```
