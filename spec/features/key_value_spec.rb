@@ -12,8 +12,10 @@ RSpec.feature 'key-value pairs', :type => :feature do
   end
 
   scenario 'user can get key-value pairs' do
+    @key = "my_key"
+    @value = "my_value"
     visit "/set?#{@key}=#{@value}"
-    visit "/set?key=#{@key}"
+    visit "/get?key=#{@key}"
     expect(page).to have_content(@value)
   end
 
